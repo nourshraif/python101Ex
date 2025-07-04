@@ -3,7 +3,7 @@ def countWords(text):
     cleanText= text.lower().replace(".", "")
     for word in cleanText.lower().split():
         dict[word]=0
-    for word in cleanTextG.lower().split():
+    for word in cleanText.lower().split():
         dict[word]+=1
     return dict       
 
